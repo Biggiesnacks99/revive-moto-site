@@ -1,40 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact – Revive Moto Parts</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Revive Moto Parts</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <div class="logo">Revive Moto Parts</div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="parts.html">Parts</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <h1>Contact Us</h1>
-        <address>
-            <p><strong>Revive Moto Parts</strong><br>
-            5451 County Road 88<br>
-            Spencerville, IN 46788</p>
-            <p>Phone: <span class="contact-phone">[Phone]</span><br>
-            Email: <span class="contact-email">[Email]</span></p>
-            <p>Facebook: <a href="https://www.facebook.com/profile.php?id=61584463558665" target="_blank" rel="noopener">Send us a message</a></p>
-        </address>
-    </main>
-    <footer>
-        <p>Revive Moto Parts<br>
-        5451 County Road 88, Spencerville, IN 46788<br>
-        Registered Indiana Retail Merchant<br>
-        Contact: <span class="contact-phone">[Phone]</span> • <span class="contact-email">[Email]</span> • <a href="https://www.facebook.com/profile.php?id=61584463558665" target="_blank" rel="noopener">Facebook</a></p>
-    </footer>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <div class="name">Revive Moto Parts</div>
+      <div class="tag">Call/Text • Email • Facebook</div>
+    </div>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="parts.html">Parts</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="header-cta">
+      <a class="button" href="tel:12602585371">(260) 258-5371</a>
+      <a class="button" href="mailto:theoffroader89@gmail.com">Email</a>
+      <a class="button primary" target="_blank"
+         href="https://www.facebook.com/profile.php?id=61584463558665">Facebook</a>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Contact</h1>
+    <p>
+      Fastest response is call/text or Facebook message. If emailing, include year/make/model and what you need.
+    </p>
+
+    <div class="hero-contact">
+      <div><strong>Call/Text:</strong> <a href="tel:12602585371">(260) 258-5371</a></div>
+      <div><strong>Email:</strong> <a href="mailto:theoffroader89@gmail.com">theoffroader89@gmail.com</a></div>
+      <div><strong>Facebook:</strong> <a target="_blank" href="https://www.facebook.com/profile.php?id=61584463558665">Message Us</a></div>
+    </div>
+
+    <div class="hero-actions">
+      <a class="button primary" href="tel:12602585371">Call Now</a>
+      <a class="button" target="_blank" href="https://www.facebook.com/profile.php?id=61584463558665">Message on Facebook</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="split">
+      <div class="panel">
+        <h3>Send a message (email)</h3>
+        <p>This form opens your email app and drafts the message.</p>
+
+        <form action="mailto:theoffroader89@gmail.com" method="post" enctype="text/plain">
+          <div class="form-row">
+            <div>
+              <label>Your name</label>
+              <input name="name" placeholder="Your name" />
+            </div>
+            <div>
+              <label>Phone (optional)</label>
+              <input name="phone" placeholder="(260) 000-0000" />
+            </div>
+          </div>
+
+          <label>What do you need?</label>
+          <input name="subject" placeholder="Service request / Part request" />
+
+          <label>Details (year/make/model, symptoms, part name, etc.)</label>
+          <textarea name="message" placeholder="Include year/make/model, and any details that help."></textarea>
+
+          <div style="margin-top:12px;">
+            <button class="button primary" type="submit">Send Email</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="panel">
+        <h3>Shop info</h3>
+        <p>
+          <strong>Address:</strong><br />
+          5451 County Road 88<br />
+          Spencerville, IN 46788
+        </p>
+        <p>
+          <strong>Phone:</strong> <a href="tel:12602585371">(260) 258-5371</a><br />
+          <strong>Email:</strong> <a href="mailto:theoffroader89@gmail.com">theoffroader89@gmail.com</a><br />
+          <strong>Facebook:</strong>
+          <a target="_blank" href="https://www.facebook.com/profile.php?id=61584463558665">Revive Moto Parts</a>
+        </p>
+
+        <a class="button" target="_blank"
+           href="https://www.google.com/maps/search/?api=1&query=5451%20County%20Road%2088%2C%20Spencerville%2C%20IN%2046788">
+          Open in Google Maps
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <strong>Revive Moto Parts</strong><br />
+      5451 County Road 88<br />
+      Spencerville, IN 46788
+    </div>
+    <div>
+      Phone: <a href="tel:12602585371">(260) 258-5371</a><br />
+      Email: <a href="mailto:theoffroader89@gmail.com">theoffroader89@gmail.com</a><br />
+      Facebook: <a target="_blank" href="https://www.facebook.com/profile.php?id=61584463558665">Revive Moto Parts</a>
+    </div>
+    <div>
+      Registered Indiana Retail Merchant<br />
+      OEM & aftermarket parts access<br />
+      Local pickup available
+    </div>
+  </div>
+</footer>
+
 </body>
 </html>
